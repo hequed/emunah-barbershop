@@ -36,6 +36,10 @@ body {
     color: var(--text-color);
     min-height: 100vh; /* Agregar esta propiedad para que el body ocupe al menos el 100% de la altura de la pantalla */
     margin: 0; /* Eliminar el margen por defecto */
+
+    p {
+        padding: 0px 10px 0px 10px;
+    }
 }
 
 section {
@@ -62,6 +66,16 @@ th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid black;
+
+    li {
+        padding: 5px;
+        list-style-type: none;
+    }
+
+    p {
+        padding: 5px;
+        padding-bottom: 10px;
+    }
 }
 
 th {
@@ -76,7 +90,7 @@ tr:hover {
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 24px;
-        padding: 15px;
+        padding: 10px;
     }
 
     table {
@@ -85,6 +99,10 @@ tr:hover {
 
     th, td {
         padding: 8px;
+
+    li {
+        padding: 6px;
+    }
     }
 }
 
