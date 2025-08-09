@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios y Precios</title>
+    <!-- Agregar el favicon -->
+    <link rel="icon" type="image/png" href="mediaImages/favicon.png">
+    <link rel="stylesheet" href="stylesServicios.css">
+</head>
+
+<body>
+    <h1
+        href="https://emunahbarbershop.site.agendapro.com/cl/sucursal/375506?hl=es-CL&gei=9F6XaMewBqbL1sQPrqXVwAo&rwg_token=ACgRB3f8cAX3cKfL9z29ZH855mlJGS-G4zzkQmzdPCufBru9SCc1VN4f9dJbDTdBSTj0Xgd7vGq8PM8WB9y7bianFpv4bSBIgA%3D%3D">
+        EMUNAH SERVICIOS</h1>
+    <table>
+        <tr>
+            <th>SERVICIO</th>
+            <th>PRECIO</th>
+            <th>DETALLE</th>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: Servicio de corte de pelo basico - $10.000')">
+            <td>CORTE DE PELO</td>
+            <td>$10.000</td>
+            <td>
+                <li>Servicio de corte de pelo basico.</li>
+            </td>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: EMUNAH KIDS - $10.000')">
+            <td>EMUNAH KIDS</td>
+            <td>$10.000</td>
+            <td>
+                <li>Corte de Pelo con paciencia y buena onda</li>
+                <li>Aplicación de cremas especiales para niños, suaves y seguras</li>
+                <li>Leche de chocolate y dos galletitas dulces</li>
+                <li>Perfume a elección.</li>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: EMUNAH ENERGY - $13.000')">
+            <td>EMUNAH ENERGY</td>
+            <td>$13.000</td>
+            <td>
+                <li>Corte de Pelo</li>
+                <li>Peinado con crema o cera</li>
+                <li>Mascarilla nasal de carbón</li>
+                <li>Perfilado (Cejas o Barba)</li>
+                <li>Masajes faciales</li>
+                <li>Snack de Mani</li>
+                <li>Bebida Energetica</li>
+                <li>Perfume a
+                    elección.</li>
+            </td>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: EMUNAH ESSENTIAL EXPERIENCE - $15.000')">
+            <td>EMUNAH ESSENTIAL EXPERIENCE
+            </td>
+            <td>$15.000</td>
+            <td>
+                <li>Corte de Pelo</li>
+                <li>Peinado con crema o cera</li>
+                <li>Mascarilla nasal de carbón</li>
+                <li>Perfilado (Cejas o Barba)</li>
+                <li>Crema Hidratante La Roche-Posay</li>
+                <li>Masajes faciales</li>
+                <li>Snack de Mani</li>
+                <li>Bebestible (CafeMarley, Té o Agua mineral)</li>
+                <li>Perfume a
+                    elección.</li>
+            </td>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: EMUNAH SUPREME EXPERIENCE - $25.000')">
+            <td>EMUNAH SUPREME EXPERIENCE
+            </td>
+            <td>$25.000</td>
+            <td>
+                <li>Corte de Pelo Personalizado</li>
+                <li>Peinado con crema o cera profesional</li>
+                <li>Mascarilla nasal de carbón</li>
+                <li>Perfilado (Cejas o Barba)</li>
+                <li>Crema Hidratante La Roche-Posay</li>
+                <li>Masajes faciales</li>
+                <li>Snack de Mani</li>
+                <li>Bebestible (CafeMarley, Té o Agua mineral)</li>
+                <li>Perfume a
+                    elección.</li>
+                <br>
+                <p>Esta versión incluye una limpieza facial MEDIA, ideal para mantener tu piel fresca y cuidada en tu
+                    día a día.</p>
+            </td>
+        </tr>
+        <tr onclick="sendWhatsapp('Hola deseo el servicio: EMUNAH ELITE EXPERIENCE - $55.000')">
+            <td>EMUNAH ELITE EXPERIENCE
+            </td>
+            <td>$50.000</td>
+            <td>
+                <li>Corte de Pelo Personalizado</li>
+                <li>Peinado con crema o cera profesional</li>
+                <li>Mascarilla nasal de carbón</li>
+                <li>Perfilado (Cejas o Barba)</li>
+                <li>Crema Hidratante La Roche-Posay</li>
+                <li>Masajes faciales</li>
+                <li>Snack de Mani</li>
+                <li>Bebestible (CafeMarley, Té o Agua mineral)</li>
+                <li>Perfume a
+                    elección.</li>
+                <br>
+                <p>Esta versión incluye una limpieza facial FULL, ideal para mantener tu piel fresca y cuidada en tu día
+                    a día.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Script para enviar mensajes a WhatsApp -->
+    <script>
+        function sendWhatsapp(message) {
+            var formattedMessage = encodeURIComponent(message);
+            var phoneNumber = "945287805";
+            var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + formattedMessage;
+            window.open(whatsappLink, "_blank");
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-item">
+                <p>Teléfono: <a href="tel:945287805">+56995765448</a></p>
+            </div>
+            <div class="footer-item">
+                <p>Correo: <a href="mailto:contacto@doctorpc.com">emunah@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <p>Dirección: Manuel Rodríguez 1080, 2310000 Hijuelas, Valparaíso, Chile</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
